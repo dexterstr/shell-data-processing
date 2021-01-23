@@ -21,13 +21,13 @@ echo $SHELL     &nbsp;    # displays the shell you're using
 echo $BASH_VERSION  # displays bash version
 <br>
 
-bash                 # if you want to use bash (type exit to go back to your previously opened shell)
+bash              &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;   # if you want to use bash (type exit to go back to your previously opened shell)
 <br>
-whereis bash        # locates the binary, source and manual-page for a command
+whereis bash     &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp;  # locates the binary, source and manual-page for a command
 <br>
-which bash          # finds out which program is executed as 'bash' (default: /bin/bash, can change across environments)
+which bash      &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp;   # finds out which program is executed as 'bash' (default: /bin/bash, can change across environments)
 <br>
-clear               # clears content on window (hide displayed lines)
+clear           &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;    # clears content on window (hide displayed lines)
 <br>
 
 ##############################################################################
@@ -36,31 +36,31 @@ clear               # clears content on window (hide displayed lines)
 <br>
 
 
-ls                            # lists your files in current directory, ls <dir> to print files in a specific directory
+ls               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;              # lists your files in current directory, ls <dir> to print files in a specific directory
 <br>
-ls -l                         # lists your files in 'long format', which contains the exact size of the file, who owns the file and who has the right to look at it, and when it was last modified
+ls -l             &nbsp; &nbsp; &nbsp; &nbsp;             # lists your files in 'long format', which contains the exact size of the file, who owns the file and who has the right to look at it, and when it was last modified
 <br>
-ls -a                         # lists all files in 'long format', including hidden files (name beginning with '.')
+ls -a                 &nbsp; &nbsp; &nbsp; &nbsp;         # lists all files in 'long format', including hidden files (name beginning with '.')
   <br>
-ln -s <filename> <link>       # creates symbolic link to file
+ln -s <filename> <link>   &nbsp; &nbsp; &nbsp;     # creates symbolic link to file
   <br>
-touch <filename>              # creates or updates (edit) your file
+touch <filename>        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;       # creates or updates (edit) your file
   <br>
-cat <filename>                # prints file raw content (will not be interpreted)
+cat <filename>          &nbsp; &nbsp; &nbsp; &nbsp;       # prints file raw content (will not be interpreted)
 <br>
-any_command > <filename>      # '>' is used to perform redirections, it will set any_command's stdout to file instead of "real stdout" (generally /dev/stdout)
+any_command > <filename>    &nbsp; &nbsp; &nbsp; &nbsp;   # '>' is used to perform redirections, it will set any_command's stdout to file instead of "real stdout" (generally /dev/stdout)
 
 <br>
-more <filename>               # shows the first part of a file (move with space and type q to quit)
+more <filename>         &nbsp; &nbsp; &nbsp; &nbsp;       # shows the first part of a file (move with space and type q to quit)
 <br>
-head <filename>               # outputs the first lines of file (default: 10 lines)
+head <filename>        &nbsp; &nbsp; &nbsp; &nbsp;        # outputs the first lines of file (default: 10 lines)
 <br>
-tail <filename>               # outputs the last lines of file (useful with -f option) (default: 10 lines)
+tail <filename>       &nbsp; &nbsp; &nbsp; &nbsp;         # outputs the last lines of file (useful with -f option) (default: 10 lines)
 <br>
-vim <filename>                # opens a file in VIM (VI iMproved) text editor, will create it if it doesn't exist
+vim <filename>        &nbsp; &nbsp; &nbsp; &nbsp;         # opens a file in VIM (VI iMproved) text editor, will create it if it doesn't exist
 <br>
-mv <filename1> <dest>         # moves a file to destination, behavior will change based on 'dest' type (dir: file is placed into dir; file: file will replace dest (tip: useful for renaming))
+mv <filename1> <dest>     &nbsp; &nbsp; &nbsp; &nbsp;     # moves a file to destination, behavior will change based on 'dest' type (dir: file is placed into dir; file: file will replace dest (tip: useful for renaming))
   <br>
-cp <filename1> <dest>         # copies a file
+cp <filename1> <dest>     &nbsp; &nbsp; &nbsp; &nbsp;     # copies a file
   <br>
-rm <filename>                 # removes a file
+rm <filename>         &nbsp; &nbsp; &nbsp; &nbsp;         # removes a file
