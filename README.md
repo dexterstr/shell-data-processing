@@ -9,7 +9,8 @@ Command used to get the data : curl "http://www.eastoftheweb.com/short-stories/U
 <br>
 Command to sort the common words : tr ' ' '\12' < story.txt | sort | uniq -c | sort -nr > result.txt
 <br>
-[Data File](https://github.com/dexterstr/shell-data-processing/blob/main/story.txt)
+[Data-File](https://github.com/dexterstr/shell-data-processing/blob/main/story.txt/)
+<br>
 [Result File](https://github.com/dexterstr/shell-data-processing/blob/main/result.txt)
 <br>
 ## BASH BASICS
