@@ -9,7 +9,8 @@ Command used to get the data : curl "http://www.eastoftheweb.com/short-stories/U
 <br>
 Command to sort the common words : tr ' ' '\12' < story.txt | sort | uniq -c | sort -nr > result.txt
 <br>
-
+[Data File]()
+[Result File]()
 <br>
 ## BASH BASICS
 
@@ -30,7 +31,7 @@ which bash      &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp;   # finds out which 
 clear           &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;    # clears content on window (hide displayed lines)
 <br>
 
-##############################################################################
+z
 ### FILE COMMANDS
 
 <br>
