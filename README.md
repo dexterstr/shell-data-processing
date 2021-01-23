@@ -6,9 +6,12 @@ Need to add more :smiley:
 
 <br>
 Command used to get the data : curl "http://www.eastoftheweb.com/short-stories/UBooks/ManCoug.shtml" -o try.txt
+<br>
 Command to sort the common words : tr ' ' '\12' < story.txt | sort | uniq -c | sort -nr > result.txt
-##############################################################################
-### BASH BASICS
+<br>
+
+<br>
+## BASH BASICS
 
 
 env      &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;     &nbsp; &nbsp; &nbsp; &nbsp;    # displays all environment variables
