@@ -35,7 +35,6 @@ which bash      &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp;   # finds out which 
 clear           &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;    # clears content on window (hide displayed lines)
 <br>
 
-z
 ### FILE COMMANDS
 
 <br>
